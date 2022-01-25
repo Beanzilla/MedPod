@@ -11,17 +11,17 @@
 				<!-- Consolidate the Disassemble AI persona core bill from both Replimat and MedPod into a single bill, that produces both Isolinear Computing Modules and Isolinear Processors at the same time -->
 				
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/ThingDef[defName = "TableMachining"]/recipes/li[.="MedPodDisassembleAiCore"]</xpath>
+					<xpath>Defs/ThingDef[defName = "TableMachining"]/recipes/li[.="MedPodDisassembleComponent"]</xpath>
 				</li>
 				
 				<li Class="PatchOperationRemove">
-					<xpath>Defs/RecipeDef[defName="MedPodDisassembleAiCore"]</xpath>				
+					<xpath>Defs/RecipeDef[defName="MedPodDisassembleComponent"]</xpath>
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="ReplimatDisassembleAiCore"]/products</xpath>
+					<xpath>Defs/RecipeDef[defName="MedPodDisassembleComponent"]/products</xpath>
 					<value>
-						<IsolinearProcessor>4</IsolinearProcessor>
+						<IsolinearProcessor>1</IsolinearProcessor>
 					</value>
 				</li>
 

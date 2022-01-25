@@ -3,6 +3,6 @@
 	<identifier>MedPod</identifier>
 	<version>1.3.5</version>
 	<showCrossPromotions>true</showCrossPromotions>
-	<manifestUri>https://raw.githubusercontent.com/sumghai/MedPod/master/About/Manifest.xml</manifestUri>
-	<downloadUri>https://github.com/sumghai/MedPod/releases/latest</downloadUri>
+	<manifestUri>https://raw.githubusercontent.com/Beanzilla/MedPod/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/Beanzilla/MedPod/releases/latest</downloadUri>
 </Manifest>

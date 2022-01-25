@@ -119,7 +119,7 @@
 		</graphicData>
 		<uiIconPath>UI/MedPod_Standard</uiIconPath>
 		<statBases>
-			<MarketValue>50000</MarketValue>
+			<MarketValue>5000</MarketValue>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>10000</WorkToBuild>
 			<Mass>350</Mass>
@@ -131,11 +131,9 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,3)</size>
 		<costList>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 			<IsolinearProcessor>1</IsolinearProcessor>
-			<Plasteel>200</Plasteel>
-			<Steel>80</Steel>
+			<Steel>40</Steel>
 		</costList>
 		<building>
 			<bed_showSleeperBody>true</bed_showSleeperBody>
@@ -145,7 +143,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 			</li>
 			<li Class="MedPod.CompProperties_AnimatedGantry">
 				<gantryGraphicData>
@@ -169,6 +167,8 @@
 				</machineLidGraphicData>
 			</li>
 			<li Class="MedPod.CompProperties_MedPodSettings">
+				<diagnosisModePowerConsumption>240</diagnosisModePowerConsumption>
+				<healingModePowerConsumption>960</healingModePowerConsumption>
 				<screenGlowGraphicData>
 					<texPath>FX/MedPod_screenGlow</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
