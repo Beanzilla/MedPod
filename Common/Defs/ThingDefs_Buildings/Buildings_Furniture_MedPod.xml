@@ -131,7 +131,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,3)</size>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
 			<Steel>40</Steel>
 		</costList>

@@ -44,7 +44,7 @@
 		</stuffCategories>
 		<costStuffCount>120</costStuffCount>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<Gold>25</Gold>
 			<IsolinearProcessor>1</IsolinearProcessor>
 			<Steel>40</Steel>

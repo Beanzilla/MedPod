@@ -38,7 +38,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,3)</size>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
 			<Steel>50</Steel>
 		</costList>
@@ -119,7 +119,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,5)</size>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
 			<Steel>60</Steel>
 		</costList>
@@ -201,7 +201,7 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(7,5)</size>
 		<costList>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
 			<Steel>75</Steel>
 		</costList>

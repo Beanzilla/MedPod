@@ -6,7 +6,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "TableMachining"]/recipes</xpath>
 				<value>
-					<li>MedPodDisassembleAiCore</li>
+					<li>MedPodDisassembleComponent</li>
 				</value>
 			</li>
 		</operations>
