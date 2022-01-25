@@ -19,7 +19,7 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="MedPodDisassembleComponent"]/products</xpath>
+					<xpath>Defs/RecipeDef[defName="ReplimatDisassembleComponent"]/products</xpath>
 					<value>
 						<IsolinearProcessor>1</IsolinearProcessor>
 					</value>
