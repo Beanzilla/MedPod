@@ -26,7 +26,7 @@
 		</graphicData>
 		<uiIconPath>UI/VetPod</uiIconPath>
 		<statBases>
-			<MarketValue>60000</MarketValue>
+			<MarketValue>6000</MarketValue>
 			<MaxHitPoints>450</MaxHitPoints>
 			<WorkToBuild>12000</WorkToBuild>
 			<Mass>600</Mass>
@@ -38,11 +38,9 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,3)</size>
 		<costList>
-			<ComponentIndustrial>12</ComponentIndustrial>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
-			<Plasteel>300</Plasteel>
-			<Steel>160</Steel>
+			<Steel>50</Steel>
 		</costList>
 		<building>
 			<bed_humanlike>false</bed_humanlike>
@@ -54,7 +52,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 			</li>
 			<li Class="MedPod.CompProperties_AnimatedGantry">
 				<gantryGraphicData>
@@ -71,6 +69,8 @@
 				</gantryGlowGraphicData>
 			</li>
 			<li Class="MedPod.CompProperties_MedPodSettings">
+				<diagnosisModePowerConsumption>240</diagnosisModePowerConsumption>
+				<healingModePowerConsumption>960</healingModePowerConsumption>
 				<screenGlowGraphicData>
 					<texPath>FX/VetPod_screenGlow</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -107,7 +107,7 @@
 		</graphicData>
 		<uiIconPath>UI/VetPod_Large</uiIconPath>
 		<statBases>
-			<MarketValue>75000</MarketValue>
+			<MarketValue>7500</MarketValue>
 			<MaxHitPoints>600</MaxHitPoints>
 			<WorkToBuild>16000</WorkToBuild>
 			<Mass>800</Mass>
@@ -119,11 +119,9 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(3,5)</size>
 		<costList>
-			<ComponentIndustrial>14</ComponentIndustrial>
-			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
-			<Plasteel>450</Plasteel>
-			<Steel>180</Steel>
+			<Steel>60</Steel>
 		</costList>
 		<building>
 			<bed_humanlike>false</bed_humanlike>
@@ -135,7 +133,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
+				<basePowerConsumption>50</basePowerConsumption>
 			</li>
 			<li Class="MedPod.CompProperties_AnimatedGantry">
 				<gantryGraphicData>
@@ -153,6 +151,8 @@
 				<gantryMaxMoveDistance>2.71875</gantryMaxMoveDistance>
 			</li>
 			<li Class="MedPod.CompProperties_MedPodSettings">
+				<diagnosisModePowerConsumption>240</diagnosisModePowerConsumption>
+				<healingModePowerConsumption>960</healingModePowerConsumption>
 				<screenGlowGraphicData>
 					<texPath>FX/VetPod_Large_screenGlow</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -189,7 +189,7 @@
 		</graphicData>
 		<uiIconPath>UI/VetPod_Mega</uiIconPath>
 		<statBases>
-			<MarketValue>120000</MarketValue>
+			<MarketValue>12000</MarketValue>
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>50000</WorkToBuild>
 			<Mass>3000</Mass>
@@ -201,11 +201,9 @@
 		<constructEffect>ConstructMetal</constructEffect>
 		<size>(7,5)</size>
 		<costList>
-			<ComponentIndustrial>18</ComponentIndustrial>
-			<ComponentSpacer>14</ComponentSpacer>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<IsolinearProcessor>1</IsolinearProcessor>
-			<Plasteel>800</Plasteel>
-			<Steel>400</Steel>
+			<Steel>75</Steel>
 		</costList>
 		<building>
 			<bed_humanlike>false</bed_humanlike>
@@ -216,7 +214,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>500</basePowerConsumption>
+				<basePowerConsumption>75</basePowerConsumption>
 			</li>
 			<li Class="MedPod.CompProperties_AnimatedGantry">
 				<gantryGraphicData>
@@ -234,8 +232,8 @@
 				<gantryMaxMoveDistance>3.71875</gantryMaxMoveDistance>
 			</li>
 			<li Class="MedPod.CompProperties_MedPodSettings">
-				<diagnosisModePowerConsumption>24000</diagnosisModePowerConsumption>
-				<healingModePowerConsumption>96000</healingModePowerConsumption>
+				<diagnosisModePowerConsumption>240</diagnosisModePowerConsumption>
+				<healingModePowerConsumption>960</healingModePowerConsumption>
 				<screenGlowGraphicData>
 					<texPath>FX/VetPod_Mega_screenGlow</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
