@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		
+			<!-- Allow injured but ambulatory prisoners to use MedPods -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThinkTreeDef[defName="Humanlike"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalPrisoner"]/subNodes/li[@Class="ThinkNode_Tagger"][tagToGive="RestingForMedicalReasons"]/subNodes</xpath>
+				<order>Prepend</order>
+				<value>
+					<li Class="MedPod.JobGiver_PatientGoToMedPod" />
+				</value>
+			</li>
+			
+			<!-- Allow injured but ambulatory colony animals to use VetPods -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThinkTreeDef[defName="Animal"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalOfPlayerFaction"]/subNodes/li[@Class="ThinkNode_Tagger"][tagToGive="RestingForMedicalReasons"]/subNodes</xpath>
+				<order>Prepend</order>
+				<value>
+					<li Class="MedPod.JobGiver_PatientGoToMedPod" />
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

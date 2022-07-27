@@ -27,9 +27,9 @@
 		</graphicData>
 		<uiIconPath>UI/MedPod_Lux</uiIconPath>
 		<statBases>
-			<MarketValue>9500</MarketValue>
+			<MarketValue>25000</MarketValue>
 			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>25000</WorkToBuild>
+			<WorkToBuild>1500</WorkToBuild>
 			<Mass>350</Mass>
 			<Beauty>60</Beauty>
 			<Flammability>0.3</Flammability>
@@ -44,10 +44,10 @@
 		</stuffCategories>
 		<costStuffCount>120</costStuffCount>
 		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<Gold>25</Gold>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Gold>50</Gold>
 			<IsolinearProcessor>1</IsolinearProcessor>
-			<Steel>40</Steel>
+			<Steel>80</Steel>
 		</costList>
 		<building>
 			<bed_showSleeperBody>true</bed_showSleeperBody>
@@ -57,7 +57,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>75</basePowerConsumption>
+				<basePowerConsumption>20</basePowerConsumption>
 			</li>
 			<li Class="MedPod.CompProperties_AnimatedGantry">
 				<gantryGraphicData>
@@ -83,8 +83,8 @@
 			<li Class="MedPod.CompProperties_MedPodSettings">
 				<maxDiagnosisTime>3.75</maxDiagnosisTime>
 				<maxPerHediffHealingTime>7.5</maxPerHediffHealingTime>
-				<diagnosisModePowerConsumption>320</diagnosisModePowerConsumption>
-				<healingModePowerConsumption>980</healingModePowerConsumption>
+				<diagnosisModePowerConsumption>200</diagnosisModePowerConsumption>
+				<healingModePowerConsumption>400</healingModePowerConsumption>
 				<screenGlowGraphicData>
 					<texPath>FX/MedPod_screenGlow</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>

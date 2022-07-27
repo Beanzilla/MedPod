@@ -46,6 +46,12 @@
 	<!-- EN: {0} s -->
 	<MedPod_Stat_TimeSeconds>{0}秒</MedPod_Stat_TimeSeconds>
 	
+	<!-- EN: No reachable, un-reserved non-prisoner MedPod with power in safe temperature. -->
+	<MedPod_Message_CannotRescue_NoNonPrisonerMedPod>無法前往、沒有通電及可用的非俘虜智能醫療床。</MedPod_Message_CannotRescue_NoNonPrisonerMedPod>
+	
+	<!-- EN: No reachable, un-reserved VetPod with power in safe temperature. -->
+	<MedPod_Message_CannotRescue_NoVetPod>無法前往、沒有通電及可用的智能獸醫床。</MedPod_Message_CannotRescue_NoVetPod>
+	
 	<!-- EN: MedPod treatment complete for {1_label}. -->
 	<MedPod_Message_TreatmentComplete>{1_label}在智能醫療床上治療完成。</MedPod_Message_TreatmentComplete>
 	
@@ -54,6 +60,9 @@
 	
 	<!-- EN: MedPod cannot treat {0}s -->
 	<MedPod_FloatMenu_RaceNotAllowed>智能醫療床不接受{0}</MedPod_FloatMenu_RaceNotAllowed>
+	
+	<!-- EN: Rescue {0} to MedPod -->
+	<MedPod_FloatMenu_Rescue>救援{0}到智能醫療床上</MedPod_FloatMenu_Rescue>
 	
 	<!-- EN: MedPod not powered -->
 	<MedPod_FloatMenu_Unpowered>智能醫療床沒有電力</MedPod_FloatMenu_Unpowered>
@@ -70,10 +79,10 @@
 	<!-- EN: Stop treating the current patient immediately. -->
 	<MedPod_CommandGizmoAbortTreatment_Desc>立即停止治療病人。</MedPod_CommandGizmoAbortTreatment_Desc>
 	
-	<!-- EN: Trait removed -->
+	<!-- EN: Trait(s) removed -->
 	<MedPod_Letter_TraitRemoved_Label>特性消除</MedPod_Letter_TraitRemoved_Label>
 
-	<!-- EN: {PAWN_labelShort} has been cured of {PAWN_possessive} addiction(s) by a MedPod, and no longer has the following trait(s):\n -->
-	<MedPod_Letter_TraitRemoved_Desc>{PAWN_labelShort}已被智能醫療床治癒了{PAWN_possessive}癮，並且不再具有以下特性:\n</MedPod_Letter_TraitRemoved_Desc>
+	<!-- EN: {PAWN_labelShort} has had the following trait(s) removed via MedPod treatment:\n -->
+	<MedPod_Letter_TraitRemoved_Desc>{PAWN_labelShort}已經通過智能醫療床治療去除以下特性:\n</MedPod_Letter_TraitRemoved_Desc>
 
 </LanguageData>
